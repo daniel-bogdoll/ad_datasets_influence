@@ -1,4 +1,4 @@
-# ad_scientometrics
+# Quantifying the Influence of Public Datasets on Autonomous Driving Research
 
 For plots over time refer to papers_citations_over_time.ipynb
 All other plots can be found in analysis.ipynb
