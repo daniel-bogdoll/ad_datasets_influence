@@ -2,9 +2,6 @@
 
 This is the repository of the paper "Impact, Attention, Influence: Early Assessment of Autonomous Driving Datasets"
 
-For plots over time refer to papers_citations_over_time.ipynb
-All other plots can be found in analysis.ipynb
-
 ## Setup
 This work was tested on Ubuntu 20.04. Setup a local venv and install all requirements:
 ```
@@ -19,6 +16,8 @@ Semantic Scholar kindly provided us with an API key with a high request limit. W
 
 ## Analysis & Plotting
 
+For plots over time refer to papers_citations_over_time.ipynb
+All other plots can be found in analysis.ipynb
 
 Process:
 1. semanticScholar.ipynb: takes data_sorted; created data_sorted_only_w_ids.json
