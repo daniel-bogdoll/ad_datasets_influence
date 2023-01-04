@@ -1,0 +1,25 @@
+                      OLS Regression Results                     
+Dep. Variable:   ,citation_c      ,  R-squared:         ,   0.374
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.338
+Method:          ,Least Squares   ,  F-statistic:       ,   9.770
+Date:            ,Wed, 04 Jan 2023,  Prob (F-statistic):,1.60e-08
+Time:            ,21:39:49        ,  Log-Likelihood:    , -145.79
+No. Observations:,   111          ,  AIC:               ,   305.6
+Df Residuals:    ,   104          ,  BIC:               ,   324.5
+Df Model:        ,     6          ,                     ,        
+Covariance Type: ,HC1             ,                     ,        
+                                 ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+reference_score_c                ,    0.0987,    0.103,    0.960, 0.337,   -0.103,    0.300
+mean_author_score                ,    0.0710,    0.086,    0.824, 0.410,   -0.098,    0.240
+year                             ,    0.0281,    0.084,    0.337, 0.736,   -0.136,    0.192
+sensors                          ,    0.1383,    0.108,    1.287, 0.198,   -0.072,    0.349
+similar_age_3m_percentile        ,    0.8030,    0.116,    6.895, 0.000,    0.575,    1.031
+similar_age_3m_percentile_squared,    0.3375,    0.072,    4.720, 0.000,    0.197,    0.478
+intercept                        ,    2.6402,    0.117,   22.480, 0.000,    2.410,    2.870
+Omnibus:      , 3.205,  Durbin-Watson:     ,   1.505
+Prob(Omnibus):, 0.201,  Jarque-Bera (JB):  ,   2.824
+Skew:         , 0.388,  Prob(JB):          ,   0.244
+Kurtosis:     , 3.089,  Cond. No.          ,    3.35
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
