@@ -47,7 +47,7 @@ papers and the year of citation.
 5. 5_analysis.ipynb Does the remaining analysis with Influence score
    1. Clustering analysis
    2. Regression analysis
-   3. We experimented if there was any chance to build a predictor with xGB to predict citation counts. The results were not very promising, so we stopped soon.
+   3. Citation coount predictor: We experimented if there was any chance to build a predictor with xGB to predict citation counts. The results were not very promising, so we stopped soon. This did not make it into the paper
    4. Calculation of IS scores.
 6. 6_semschol.ipynb Just a short experiment if the highly influential citation count is correlated with citations.
 
