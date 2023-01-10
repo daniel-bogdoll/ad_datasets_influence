@@ -59,7 +59,7 @@ papers and the year of citation.
 If you find our work useful for your research, please cite our paper:
 ```
 @inProceedings{XX_Impact_2023_XX,
-    author    = {XX},
+    author    = {Daniel Bogdoll, Jonas Hendl, Felix Schreyer, Nishanth Gowda, Michael Färber, J. Marius Zöllner},
     title     = {{Impact, Attention, Influence: Early Assessment of Autonomous Driving Datasets}},
     journal   = {XX},
     year      = {2023}
