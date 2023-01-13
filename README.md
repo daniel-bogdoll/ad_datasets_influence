@@ -1,6 +1,6 @@
 # Impact, Attention, Influence: Early Assessment of Autonomous Driving Datasets
 
-This is the repository of the paper "Impact, Attention, Influence: Early Assessment of Autonomous Driving Datasets"
+This is the repository of the paper [Impact, Attention, Influence: Early Assessment of Autonomous Driving Datasets](https://arxiv.org/abs/2301.02200).
 
 ## Setup
 This work was tested on Ubuntu 20.04. Setup a local venv and install all requirements:
@@ -58,10 +58,10 @@ papers and the year of citation.
 ## Citation
 If you find our work useful for your research, please cite our paper:
 ```
-@inProceedings{XX_Impact_2023_XX,
+@article{Bogdoll_Impact_2023_arXiv,
     author    = {Daniel Bogdoll, Jonas Hendl, Felix Schreyer, Nishanth Gowda, Michael Färber, J. Marius Zöllner},
     title     = {{Impact, Attention, Influence: Early Assessment of Autonomous Driving Datasets}},
-    journal   = {XX},
+    journal   = {arXiv:2301.02200},
     year      = {2023}
 }
 ```
