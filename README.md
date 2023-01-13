@@ -22,33 +22,45 @@ The json should be specified with your keys as follows:
 }
 ```
 
-
-## Analysis & Plotting
-
-For plots over time refer to papers_citations_over_time.ipynb
-All other plots can be found in analysis.ipynb
-
-Process:
-The notebooks can be run in following order:
+## Repository Structure
+```bash
+├── data        # all retrieved data
+├── notebooks   # jupyter notebooks
+└── outputs     # figures and csvs from regression             
+```
+## Data retrieval
 (Optional for versioning: At the beginning of each notebook the variable suffix can be specified (e.g. with an ID or date).)
-1. 1_semanticScholar_id_retrieval.ipynb gets current datasets from ad-data and adds Semantic Scholars internal paperId
+1. 1_semanticScholar_id_retrieval.ipynb:gets current datasets from ad-data and adds Semantic Scholars internal paperId
 and all external Ids.
+
 2. 2_altmetric_api_retrieval.ipynb gets Altmetric score, altmetric score at three months and readers based on the arxiv-id or DOI.
+
 3. 3_Semantic_scholar_in_depth_metadata_retrieval.ipynb gets the following information from semantic scholar for all papers in the dataset:
-• All referenced papers, including for each a list of all
-citing papers and the year of citation.
-• All authors and their respective publications, including
-for each publication a list of citing papers and the year
-of citation.
-• All of citing papers, including for each a list of citing
+
+    - All referenced papers, including for each a list of all
+    citing papers and the year of citation.
+    - All authors and their respective publications, including
+    for each publication a list of citing papers and the year
+    of citation.
+    - All of citing papers, including for each a list of citing
 papers and the year of citation.
 
+## Analysis and Plotting
 4. 4_plotting_papers_citations_over_time.ipynb Plots the development of the number of citations and publications over time.
+
 5. 5_analysis.ipynb Does the remaining analysis with Influence score
    1. Clustering analysis
    2. Regression analysis
-   3. Citation coount predictor: We experimented if there was any chance to build a predictor with xGB to predict citation counts. The results were not very promising, so we stopped soon. This did not make it into the paper
+   3. Citation coount predictor: We experimented if there was any chance to build a predictor with xGB to predict citation counts. The results were not very promising, so we stopped soon. This did not make it into the paper.   
    4. Calculation of IS scores.
+   
+   ### Distribution of papers by their Influence score
+   ![image](output/hist_all_at_influence_score.jpg)
+   
+   ### Distribution of papers from 2022 by their Influence score
+   ![image](output/hist_2022_influence_score.jpg)
+   
+   
 6. 6_semschol.ipynb Just a short experiment if the highly influential citation count is correlated with citations.
 
 
