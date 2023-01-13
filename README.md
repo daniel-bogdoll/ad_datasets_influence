@@ -22,7 +22,12 @@ The json should be specified with your keys as follows:
 }
 ```
 
-
+## Repository Structure
+```bash
+├── data        # all retrieved data
+├── notebooks   # jupyter notebooks
+└── outputs     # figures and csvs from regression             
+```
 ## Data retrieval
 (Optional for versioning: At the beginning of each notebook the variable suffix can be specified (e.g. with an ID or date).)
 1. 1_semanticScholar_id_retrieval.ipynb:gets current datasets from ad-data and adds Semantic Scholars internal paperId
@@ -40,7 +45,7 @@ and all external Ids.
     - All of citing papers, including for each a list of citing
 papers and the year of citation.
 
-# Analysis and Plotting
+## Analysis and Plotting
 4. 4_plotting_papers_citations_over_time.ipynb Plots the development of the number of citations and publications over time.
 
 5. 5_analysis.ipynb Does the remaining analysis with Influence score
